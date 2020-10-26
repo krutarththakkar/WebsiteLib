@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Parallax 
+		</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<section class="zoom">
+		<img src="mountain1.png" id="layer1">
+		<img src="mountain2.png" id="layer2">
+		<img src="text.png" id="text">
+	</section>
+	<section class="content">
+		<p>What is Lorem Ipsum?<br>
+Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p><br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer <br>took a galley of type and scrambled it to make a type specimen book. It has survived<br> not only five centuries, but also the leap into electronic typesetting, remaining essentially uncha<br>brnged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum p<br>assages, and more recently with desktop publishing software like Aldus PageMaker including versions o<br>f Lorem Ipsum
+	</section>
+<script type="text/javascript">
+	var layer1 = document.getElementById('layer1');
+	scroll = window.pageYOffset;
+document.addEventListener('scroll', function(e)
+	{
+	var offset = window.pageYOffset;
+	scroll = offset;
+	layer1.style.width = (100 + scroll/5) + '%';
+
+});
+
+
+var layer2 = document.getElementById('layer2');
+scroll = window.pageYOffset;
+document.addEventListener('scroll', function(e){
+	var offset = window.pageYOffset;
+	scroll = offset;
+	layer2.style.width = (100 + scroll/5) + '%';
+	layer2.style.left = scroll/50 + '%';
+
+});
+
+		var text = document.getElementById('text')
+		scroll = window.pageYOffset;
+		document.addEventListener('scroll',function (e) {
+			var offset = window.pageYOffset;
+			scroll = offset;
+			layer2.style.width = (100 + scroll/5) + '%';
+
+			text.style.top = - scroll/20 + '%';
+		});
+</script>
+</body>
+</html>
