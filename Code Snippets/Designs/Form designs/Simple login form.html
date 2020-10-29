@@ -1,0 +1,118 @@
+
+ <!doctype HTML>
+<html lang="en">
+<head>
+	<title>HTML form</title>
+	<meta charset='UTF-8'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body{
+			background-color:#544e57;
+			display: flex;
+			justify-content: center;
+		}
+		div{
+			margin: 10%;
+			background-image:linear-gradient(90deg, #65b1f0, #2b8bd9);
+			width: 40vw;
+			border:2px solid black;
+			text-align: center;
+			border-radius:10px;
+		}
+		
+		p{
+			text-align:center;
+			font-size:3em;
+			font-family: 'Raleway', sans-serif;
+			color:black;
+			letter-spacing:4px;
+			font-weight:700;
+		}
+		.e-mail, .password{
+			height: 5vh;
+			border-bottom-color:black;
+			border-top-style: none;
+			border-left-style: none;
+			border-right-style: none;
+			background:transparent;
+			font-size:1.5em;
+			font-family:sans-serif;
+		}
+		.e-mail:hover{
+			border-bottom-color:blue;
+		}
+		.password:hover{
+			border-bottom-color:blue;
+		}
+		button{
+			border-radius:20px;
+			border-style:hidden;
+			font-family:roboto;
+			font-size:1.5em;
+			background-color:blue;
+			color:white;
+			padding: 3% 15%;
+		}
+		button:hover{
+			border-style:groove;
+			border-color:black;
+		}
+		button:hover{
+			cursor:pointer;
+		}
+		
+		::placeholder{
+			font-size:1.15em;
+			color:blue;
+		}
+		label{
+			font-size:1.5em;
+			color:indigo;
+		}
+		a{
+			font-size:20px;
+			color:blue;
+		}
+		a:hover{
+			cursor:pointer;
+		}
+		#remember_me{
+			text-align: left;
+
+		}
+		#label{
+			font-size: 1.75em;
+		}
+
+		@media screen and (max-width: 980px){
+			div{
+				width: 60vw;
+			}
+		}
+
+		@media screen and (max-width: 980px){
+			div{
+				width: 90vw;
+				padding: 5%;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<p>Sign in</p>
+		<input type="email"placeholder='e-mail id'class='e-mail'></input>
+		<br><br><br>
+		<input type="password"placeholder='password'class='password'></input>
+		<br><br><br>
+		<input type="checkbox" id='remember_me'></input>
+		<label for="remember_me" id="label">remember me</label>
+		<br>
+		<br>
+		<form action=''><button>submit</button><br><br><br></form>
+		<a href="#'">Forget password?</a>
+		<br>
+		<br>
+	</div>
+</body>
+</html>
