@@ -1,0 +1,80 @@
+
+<html>
+<head>
+	<title>Contact us</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body{
+			background-color:#3b4f40;
+		}
+		form{
+			border-style:groove;
+			border:2px solid black;
+			border-radius:10px;
+			width:400px;
+			height:550px;
+			margin:0 auto;
+			position:relative;
+			top:60px;
+			background-color:#25a6d9;
+		}
+		p{
+			font-size:45px;
+			text-align:center;
+		}
+		#name, #e-mail{
+			display:block;
+			margin:0 auto;
+			width:300px;
+			height:40px;
+			font-size:17px;
+			border-style:none;
+			border-radius:5px;
+			border:1px solid black;
+			font-family:sans-serif;
+		}
+		textarea{
+			width:300px;
+			height:130px;
+			display:block;
+			margin:0 auto;
+			border-radius:10px;
+			border:1px solid black;
+			font-size:17px;
+			font-family:sans-serif;
+		}
+		textarea:hover, #e-mail:hover, #name:hover{
+			border:2px solid black;
+		}
+		button{
+			display:block;
+			border-radius:5px;
+			margin: 0 auto;
+			width:200px;
+			height:40px;
+			font-size:17px;
+			border:1px solid black;
+			font-family:sans-serif;
+			background-color:white;
+		}
+		button:hover{
+			cursor:pointer;
+			border:2px solid black;
+		}
+		::placeholder{
+			color:black;
+			font-family:sans-serif;
+		}
+	</style>
+</head>
+<body>
+	<form action='#'>
+		<p>Contact us</p>
+		<input type='name'id='name'placeholder='Name'autofocus='on'></input><br><br>
+		<input type='email'id='e-mail'placeholder='e-mail id'></input><br><br>
+		<textarea placeholder='write your comment here'></textarea><br><br>
+		<button>Submit</button>
+	</form>
+</body>
+</html>
