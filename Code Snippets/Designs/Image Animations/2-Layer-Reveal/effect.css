@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+body {
+  background: #111b25;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Pacifico";
+}
+
+.info {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+a {
+  color: beige;
+}
+
+.w {
+  margin: 0 auto;
+  white-space: nowrap;
+  max-width: 1200px;
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  background: rgba(66, 66, 66, 0.5) url("https://unsplash.imgix.net/reserve/PPE2xapKRNyy2DlTt89F_Gutman_island.jpg?fit=crop&fm=jpg&h=1500&q=75&w=2400") repeat fixed;
+  background-position: 50% 100%;
+  background-size: cover;
+  position: relative;
+  z-index: 5;
+  font-size: 0;
+}
+
+.i {
+  width: 40px;
+  height: 100%;
+  display: inline-block;
+  position: relative;
+  z-index: 4;
+  padding: 2px;
+  transition: all 1.3s ease-in-out;
+  background: rgba(66, 66, 66, 0.5) url("http://unsplash.imgix.net/reserve/de9uL9L7RSmzV4SAoAO5_Lauren%20and%20Winona%20Under%20a%20pass-1.jpg?fit=crop&fm=jpg&h=1500&q=75&w=2400") repeat fixed;
+  background-size: cover;
+  background-position: 50% 100%;
+  border-radius: 0%;
+}
+.i:hover {
+  transition: all 0s linear;
+  opacity: 0;
+}
+
+.h {
+  display: block;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  text-align: center;
+  top: 35px;
+  font-size: 40px;
+  color: beige;
+  text-shadow: 0 5px 17px rgba(87, 87, 80, 0.85);
+}
