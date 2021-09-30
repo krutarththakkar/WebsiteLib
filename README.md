@@ -3,7 +3,7 @@
 **Your 1stop_G0 for all the design & C0de needs of your Web-app portal** 
 ### F0r--- _Free_ 🆓!!
 
-![WEB-DESIGN.gif](https://www.inventiva.global/wp-content/uploads/2019/05/Content-Optimised-for-SEO-2.gif)
+![WEB-DESIGN](https://www.inventiva.global/wp-content/uploads/2019/05/Content-Optimised-for-SEO-2.gif)
 ## Includes ..
 * #### Library of CSS & Javascript snippets to make any website or Blog you are starting ready to launch🚀🚀!!
 * #### Text fonts and Effects, Responsive Cards, Image animations, Website design, Parallax Effects, Scrolling Effects and many more creative snippets!
@@ -14,7 +14,7 @@
   #### & their PRs are labelled Hacktoberfest-Accepted for _Swags!_
 * #### You may also contribute by adding external resources in `Resources` or by raising Valid Issues and help us discover and fix them to avoid any trouble for the community
 
-![Responsive-Effects.gif](https://www.inventiva.global/wp-content/uploads/2019/05/Inventiva-Responsive-Web-Design.gif)
+![Responsive-Effects](https://www.inventiva.global/wp-content/uploads/2019/05/Inventiva-Responsive-Web-Design.gif)
 ## Integrate Your site with simple Code for _high-end designs_ at ease!
 ## 🌟⭐✡🔯✴✳✨🌠🤩 Star this &
 # Happy Contributing
